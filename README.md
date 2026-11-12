@@ -12,7 +12,7 @@ Linyu Li<sup>1</sup> · Zhi Jin<sup>1,✉</sup> · Yuanpeng He<sup>1</sup> · Ha
 [![Code](https://img.shields.io/badge/Author_repositories-30-0f766e)](#code)
 [![Coverage](https://img.shields.io/badge/Coverage-2026--10--24-64748b)](#scope)
 
-**[Papers](#paper-catalog) · [Code](#code) · [Figures](#overview) · [Datasets](#datasets) · [Benchmarks](#benchmarks)**
+**[Papers](#paper-catalog) · [Code](#code) · [Figures](#overview) · [Medical LLMs](#medical-llms) · [Datasets](#datasets) · [Benchmarks](#benchmarks)**
 
 </div>
 
@@ -23,7 +23,7 @@ A companion collection of papers, code, datasets, and benchmarks for our survey 
 
 - **Overview:** [Research evolution](#evolution) · [Recommendation pipeline](#task) · [Taxonomy](#taxonomy)
 - **Papers:** [By year](#paper-catalog) · [Where to start](#reading-paths) · [Code](#code) · [Language-model methods](#llm-roles)
-- **Resources:** [Datasets](#datasets) · [Drug knowledge](#knowledge) · [Benchmarks](#benchmarks) · [Reported results](#reported-results)
+- **Resources:** [Medical LLMs](#medical-llms) · [Datasets](#datasets) · [Drug knowledge](#knowledge) · [Benchmarks](#benchmarks) · [Reported results](#reported-results)
 - **More:** [Specialty tasks](#adjacent) · [Open challenges](#future) · [Related surveys](#related-surveys) · [Contributing](#contributing) · [Contact](#contact)
 
 <a id="scope"></a>
@@ -39,7 +39,7 @@ Medication recommendation uses patient records and drug knowledge to suggest med
 
 [![Evolution of medication recommendation research](assets/readme/evolution.png)](assets/readme/evolution.png)
 
-*Figure 1. Research evolution and representative methods. The medical-model inset provides context and is outside the 111-entry catalog. Click any figure to enlarge.*
+*Figure 1. Research evolution and representative methods. The [medical-model inset](#medical-llms) provides context and is outside the 111-entry catalog. Click any figure to enlarge.*
 
 <a id="task"></a>
 ### Recommendation pipeline
@@ -284,6 +284,25 @@ Language models contribute representations, recommendations, training signals, a
 | Explanation | [MediCARE](#model-medicare) |
 | Agent coordination and verification | [SafeRx-Agent](#model-saferx-agent) |
 | Longitudinal management | [AMIE management](https://www.nature.com/articles/s41586-026-10764-5) |
+
+<a id="medical-llms"></a>
+## Related medical LLMs and AI assistants
+
+Selected medical models and healthcare assistants related to Figure 1. These resources provide broader context and are outside the 111-entry medication-recommendation catalog.
+
+| Model | Focus | Papers and official resources |
+|---|---|---|
+| **Baichuan-M4** | Medical agents for continuous care | [Paper](https://arxiv.org/abs/2606.08982) · [Official site](https://www.baichuan-ai.com/) |
+| **MedGemma 1.5 4B** | Medical imaging and document understanding | [Paper](https://arxiv.org/abs/2604.05081) · [Model page](https://deepmind.google/models/gemma/medgemma/) |
+| **HuatuoGPT-3** | Medical reasoning | [Paper](https://arxiv.org/abs/2610.05966) · [Code and models](https://github.com/FreedomIntelligence/HuatuoGPT-3) |
+| **Fully Open Meditron** | Clinical-model training and evaluation | [Paper](https://arxiv.org/abs/2605.16215) · [Code, data, and models](https://github.com/EPFLiGHT/FullyOpenMeditron) |
+| **MedGPT-oss** | Biomedical vision-language understanding | [Paper](https://arxiv.org/abs/2603.00842) · [Model](https://huggingface.co/UFNLP/MedGPT-oss) |
+| **Lingshu-I-8B** | Multimodal medical understanding and reasoning | [Family paper](https://arxiv.org/abs/2506.07044) · [Model](https://huggingface.co/lingshu-medical-mllm/Lingshu-I-8B) |
+| **Hulu-Med-Flash-Preview-27B** | Medical text, image, and video understanding | [Family paper](https://arxiv.org/abs/2510.08668) · [Model](https://huggingface.co/ZJU-AI4H/Hulu-Med-Flash-Preview-27B) |
+| **HealthGPT-Pro** | Medical text and image understanding | [Family paper](https://proceedings.mlr.press/v267/lin25n.html) · [Version documentation](https://github.com/ZJU4HealthCare/HealthGPT/blob/main/HealthGPT-Pro/README.md) |
+| **AntAngelMed** | Medical question answering and reasoning | [Model](https://huggingface.co/MedAIBase/AntAngelMed) · [Code](https://github.com/MedAIBase/AntAngelMed) |
+
+**Healthcare AI assistants:** [Claude for Healthcare](https://www.anthropic.com/news/healthcare-life-sciences/) · [ChatGPT Health](https://openai.com/index/introducing-chatgpt-health/) · [Ant Afu](https://www.antgroup.com/en/news-media/press-releases/1765779300000) · [iFLYTEK Xiaoyi](https://www.xunfeihealthcare.com/product/244.html) · [JD AI Jingyi](https://cont.jd.com/content/14645295) · [Ali-Doctor (Qinglizi)](https://www.alihealth.cn/zh-CN/about/)
 
 <a id="datasets"></a>
 ## Datasets
