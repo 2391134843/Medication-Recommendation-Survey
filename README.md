@@ -24,7 +24,7 @@ A companion collection of papers, code, datasets, and benchmarks for our survey 
 - **Overview:** [Research evolution](#evolution) · [Recommendation pipeline](#task) · [Taxonomy](#taxonomy)
 - **Papers:** [By year](#paper-catalog) · [Where to start](#reading-paths) · [Code](#code) · [Language-model methods](#llm-roles)
 - **Resources:** [Datasets](#datasets) · [Drug knowledge](#knowledge) · [Benchmarks](#benchmarks) · [Reported results](#reported-results)
-- **More:** [Specialty tasks](#adjacent) · [Open challenges](#future) · [Related surveys](#related-surveys) · [Contributing](#contributing)
+- **More:** [Specialty tasks](#adjacent) · [Open challenges](#future) · [Related surveys](#related-surveys) · [Contributing](#contributing) · [Contact](#contact)
 
 <a id="scope"></a>
 <a id="overview"></a>
@@ -407,6 +407,13 @@ These papers provide methodological context beyond the core catalog.
 ## Contributing
 
 Papers, author-code links, and corrections are welcome through [issues](https://github.com/2391134843/Medication-Recommendation-Survey/issues) and [pull requests](https://github.com/2391134843/Medication-Recommendation-Survey/pulls). Please include the paper link and a brief description of the proposed addition or correction.
+
+<a id="contact"></a>
+## 🤝 Contact
+
+If you have any questions or feedback, please feel free to contact us at [linyuli@stu.pku.edu.cn](mailto:linyuli@stu.pku.edu.cn).
+
+To suggest a new paper for inclusion in this survey, please email us its title and link.
 
 ## Acknowledgments
 
